@@ -28,7 +28,7 @@ void Model::process()
 		// Search new references on current page and add to queue
 		urlpage->download();
 		list<string> * new_refs = urlpage->get_references();
-		if (new_refs && refs.size() <= stat.max_pages) {
+		if (new_refs && refs.size() < stat.max_pages) {
 			m.lock();
 			refs.splice(refs.end(), *new_refs);
 			m.unlock();
