@@ -1,0 +1,16 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets(76,5): warning : The process cannot access the file 'd:\temporary_files\developex\webfinder\debug\moc_mainwindow.cpp' because it is being used by another process.
+  MOC mainwindow.h
+  moc: Cannot create debug\moc_mainwindow.cpp
+  RCC myresources.qrc
+  controller.cpp
+  main.cpp
+  mainwindow.cpp
+  moc_mainwindow.cpp
+  Model.cpp
+  URLPage.cpp
+model\URLPage.cpp(50): warning C4129: '/': unrecognized character escape sequence
+model\URLPage.cpp(50): warning C4129: ':': unrecognized character escape sequence
+model\URLPage.cpp(50): warning C4129: ';': unrecognized character escape sequence
+  qrc_myresources.cpp
+  Generating Code...
+  WEBFinder.vcxproj -> D:\Temporary_files\Developex\WEBFinder\debug\WEBFinder.exe
