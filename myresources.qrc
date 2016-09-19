@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/data">
+        <file>res/Developex.jpg</file>
+        <file>res/pause.png</file>
+        <file>res/start.png</file>
+        <file>res/stop.png</file>
+    </qresource>
+</RCC>
