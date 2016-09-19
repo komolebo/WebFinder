@@ -30,7 +30,7 @@ private:
     Ui::View *ui;
 	Controller * controller;
 	
-	int timer_id;	// For timer updating timer function
+	int timer_id;	// For timer updating function
 	QStandardItemModel* table_model; 
 
 	// Member functions for table implementation
