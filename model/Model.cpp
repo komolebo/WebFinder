@@ -23,7 +23,7 @@ void Model::process()
 		}
 		m.unlock();
 
-		if (urlpage == 0) continue;		// Didn't own the mutex
+		if (urlpage == 0) continue;		// Mutex owned but no pages left
 
 		// Search new references on current page and add to queue
 		urlpage->download();
