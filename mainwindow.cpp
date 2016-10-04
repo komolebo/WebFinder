@@ -5,11 +5,11 @@
 
 View::View(QWidget *parent) : QMainWindow(parent), ui(new Ui::View)
 {
-    ui->setupUi(this);
+    	ui->setupUi(this);
 
 	// Format input for textedit widgets
-    ui->ePageCount->setValidator( new QIntValidator(1, 9999999, this) );
-    ui->eProcCount->setValidator( new QIntValidator(1, 10, this) );
+    	ui->ePageCount->setValidator( new QIntValidator(1, 9999999, this) );
+    	ui->eProcCount->setValidator( new QIntValidator(1, 10, this) );
 
 	// Initial view page state
 	ui->bPause->setEnabled(false);
@@ -17,8 +17,8 @@ View::View(QWidget *parent) : QMainWindow(parent), ui(new Ui::View)
 	ui->progressBar->setValue(0);
 	
 	// Default values for input widgets
-	ui->eURL->setText("http://developex.com.ua/");
-	ui->eText->setText("succesful");
+	ui->eURL->setText("http://google.com.ua/");
+	ui->eText->setText("Google");
 	ui->eProcCount->setText("5"); ui->ePageCount->setText("50");
 
 	table_model = new QStandardItemModel();
